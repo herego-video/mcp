@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "herego-video/mcp",
+  "title": "HereGo",
+  "description": "Request visual evidence from humans when text, screenshots, or logs aren't enough. Create browser-based video requests, monitor submissions, and retrieve submitted video evidence.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/herego-video/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://herego.video/api/mcp"
+    }
+  ]
+}
